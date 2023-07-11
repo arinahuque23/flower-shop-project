@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans&family=Work+Sans:wght@400;700&display=swap');
+
+body {
+    color: #272727;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Banner section done  */
+.bg-color {
+    background: rgba(229, 84, 115, 0.10);
+    height: 725px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.left-side {
+    flex: 1;
+    padding: 20px;
+}
+
+.left-side h2 {
+    color: #272727;
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.left-side p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: rgba(39, 39, 39, 0.60);
+}
+
+.left-side button {
+    padding: 10px 20px;
+    align-items: flex-start;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+}
+
+.right-side {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.right-side img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Banner Media Queries */
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-side,
+    .right-side {
+        flex: 1;
+        padding: 20px;
+    }
+
+    .left-side h2 {
+        font-size: 40px;
+    }
+
+    .left-side p {
+        font-size: 12px;
+    }
+
+    .right-side img {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .left-side h2 {
+        font-size: 32px;
+    }
+
+    .left-side p {
+        font-size: 10px;
+    }
+
+    .right-side img {
+        max-width: 100%;
+    }
+}
+
+/* featured section  */
+.allHeading {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 50px;
+    margin-bottom: 0;
+
+}
+
+.allSubHeading {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0;
+
+}
+
+.FeaturedContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.box1 {
+    margin-top: 50px;
+    width: 350px;
+    height: 480px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+
+    text-align: center;
+
+}
+
+.box2 {
+    margin-top: 50px;
+    width: 350px;
+    height: 480px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    text-align: center;
+
+}
+
+.box3 {
+    margin-top: 50px;
+    width: 350px;
+    height: 480px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    text-align: center;
+
+}
+
+.middle-flower {
+    margin-top: 110px;
+}
+
+.box1 img {
+    width: 70%;
+    height: auto;
+    margin-top: 140px;
+}
+
+.box2 img {
+    width: 70%;
+    height: auto;
+    margin-top: 140px;
+}
+
+.box3 img {
+    width: 70%;
+    height: auto;
+    margin-top: 110px;
+}
+
+/* <!-- delivery  --> */
+
+
+.margin-toDelivery {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 50px;
+}
+
+@media (max-width: 768px) {
+    .margin-toDelivery {
+        flex-direction: column;
+        margin-top: 40px;
+        padding: 0px;
+    }
+}
+
+/* deal sales  */
+
+.bg-color-deal {
+    background: rgba(229, 84, 115, 0.10);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+}
+
+.dealLeftSide h2 {
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    line-height: normal;
+    margin: 0;
+}
+
+.dealLeftSide p {
+    margin: 10px;
+
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.dealLeftSide button {
+    padding: 10px 20px;
+    align-items: flex-start;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    text-align: center;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+}
+
+.DealRightSide {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.DealRightSide img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* InstagramContainer  */
+
+.InstagramContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.InstagramContainer img {
+    max-width: 20%;
+
+}
+
+ /* latest deals  */
+.getDeals {
+    margin-top: 40px;
+    background-image: url('../imges/Rectangle 9.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.SubscribeContainer {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+
+
+}
+
+.GetTitle {
+    color: #272727;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+
+}
+
+.couponSubTitle {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 15px 0px;
+}
+
+.input-box {
+    width: 600px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    padding: 15px;
+}
+
+.inputSubscribe {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.subscribe-btn {
+    width: 50px;
+    height: 64px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.subscribe-btn:hover {
+    background-color: #45a049;
+}
+/* Media queries for mobile responsiveness */
+
+@media only screen and (max-width: 600px) {
+    .SubscribeContainer {
+        max-width: 100%;
+        margin: 50px 20px;
+        padding: 10px;
+    }
+    
+    .input-box {
+        width: 100%;
+    }
+    
+    .subscribe-btn {
+        width: 100%;
+    }
+}
+
+/* footer  */
+
+.bg-colorFooter {
+    margin-top: 20px;
+    background: #111010;
+    height: 280px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerShop {
+    text-align: center;
+}
+.titleShop{
+    color: #E55473;
+}
+.shopColor{
+    color: #ffffff;
+}
+.distractedSubhead  {
+    color: #ffffffe6;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.copyRight{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/* Responsive styles */
+
+@media screen and (max-width: 768px) {
+    /* Styles for screens up to 768px wide */
+    .bg-colorFooter {
+        height: auto;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .distractedSubhead {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Styles for screens up to 480px wide */
+    .titleShop {
+        font-size: 24px;
+    }
+
+    .distractedSubhead {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .copyRight {
+        font-size: 14px;
+    }
+}
